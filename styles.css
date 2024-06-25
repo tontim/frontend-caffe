@@ -1,0 +1,81 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 10px;
+    padding: 0;
+    background-color: #b5cde9;
+    color: #333;
+    max-width: 100%;
+}
+.container {
+    max-width: 70%;
+}
+img {
+    max-width: 100%;
+}
+/* Heading styles */
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+/* Paragraph styles */
+p {
+    margin: 1em;
+    padding: 5px;
+    background-color: #ffffff;
+    
+}
+
+/* Link styles */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* List styles */
+ol {
+    background-color: #ffffff;
+
+}
+ol ::marker {
+    font-weight: bold;
+}
+
+li {
+    padding: 0.5em 0;
+}
+ul {
+    background-color: #ffffff;
+
+}
+
+/* Button styles */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #0d1b47;
+}
+
