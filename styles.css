@@ -8,24 +8,20 @@ body {
     color: #333;
     max-width: 100%;
 }
-.container {
-    max-width: 70%;
-}
+
 img {
     max-width: 100%;
 }
 /* Header */
 .header {
     display: flex;
-    flex: 1;
 }
 
 .logo-container {
-
+    flex: 2; 
 }
 
 .topbar {
-
     flex: 3;
 }
 
