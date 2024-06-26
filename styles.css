@@ -1,11 +1,5 @@
 /* Basic styling for the body */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 10px;
-    padding: 0;
-    background-color: #b5cde9;
-    color: #333;
     max-width: 100%;
 }
 
@@ -15,77 +9,74 @@ img {
 /* Header */
 .header {
     display: flex;
+    justify-content: center;
+    background-color: darkred;
 }
 
-.logo-container {
-    flex: 2; 
+nav {
+    display: flex;
+    align-items: center;
 }
 
-.topbar {
-    flex: 3;
-}
-
-h1 {
-    font-size: 3em;
-}
-
-h2 {
-    font-size: 1.2em;
-}
-
-/* Paragraph styles */
-p {
-    margin: 1em;
-    padding: 5px;
-    background-color: #ffffff;
-    
-}
-
-/* Link styles */
-a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* List styles */
-ol {
-    background-color: #ffffff;
-
-}
-ol ::marker {
-    font-weight: bold;
-}
-
-li {
-    padding: 0.5em 0;
-}
-ul {
-    background-color: #ffffff;
-
-}
-
-/* Button styles */
 button {
-    background-color: #007BFF;
-    color: #fff;
     border: none;
     padding: 0.5em 1em;
     cursor: pointer;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
-button:hover {
-    background-color: #0056b3;
+nav button {
+    font-family: "Spirax", sans-serif;
+    background-color: rgba(42, 42, 42, 0);
+    color: white;
+}
+section {
+    padding 100px 20px;
 }
 
-/* Footer styles */
-footer {
-    text-align: center;
-    padding: 1em 0;
-    background-color: #0d1b47;
+.text-box {
+    display:flex;
+    padding: 20px;
+    background-color:rgba(139, 0, 0, 0.829);
+    color: white;
+    width: 100%;
+    font-family: "Poiret One", sans-serif;
 }
+.left-box {
+    display: flex;
+    align-self: center;
+}
+.right-box {
+    display: flex;
+    align-self: center;
+}
+.menu-box {
+    padding: 20px;
+    margin: 20px;
+}
+.price {
+    display: flex;
+    align-self:flex-end;
+}
+#section1 {
+    background-image: url('images/hot.jpg');
+    background-size: cover; 
+    background-position: center;
+}
+section h1 {
+    display:flex;
+    justify-content: center;
+    color: darkred;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    font-size: 3em;
+    font-family: "Spirax", sans-serif;
+}
+
+/* Button styles */
+
+
 
