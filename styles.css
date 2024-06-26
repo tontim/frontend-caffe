@@ -14,7 +14,21 @@ body {
 img {
     max-width: 100%;
 }
-/* Heading styles */
+/* Header */
+.header {
+    display: flex;
+    flex: 1;
+}
+
+.logo-container {
+
+}
+
+.topbar {
+
+    flex: 3;
+}
+
 h1 {
     font-size: 3em;
 }
