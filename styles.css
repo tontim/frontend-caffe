@@ -83,7 +83,7 @@ h1 {
     margin-top:10px;
     background-color:rgba(139, 0, 0, 0.800);
     color: white;
-    width: auto;
+    width: 70%;
     box-sizing: border-box;
     margin-bottom:20px;
     font-family: "Poiret One", sans-serif;
@@ -96,6 +96,7 @@ h1 {
 }
 .right-box {
     align-self:flex-end;
+    text-align: center;
     margin-right:10%;
 }
 
@@ -123,6 +124,9 @@ h1 {
 @media (max-width: 768px) {
     section {
         padding: 20px;
+    }
+    h1 {
+    font-size: 3em;
     }
     .text-box {
         padding:5px;
