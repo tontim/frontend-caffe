@@ -1,4 +1,4 @@
-/* Basic styling for the body */
+/* ###### Body, Reset default values ######*/
 * {
     margin: 0;
     padding: 0;
@@ -12,8 +12,7 @@ html, body {
 img {
     max-width: 100%;
 }
-
-/* Header */
+/* ###### Header & Topbar ######*/
 .header {
     display: flex;
     justify-content: center;
@@ -34,13 +33,11 @@ button {
     cursor: pointer;
     font-size: 1.5em;
 }
-
 nav button {
     font-family: "Spirax", sans-serif;
     background-color: rgba(42, 42, 42, 0);
     color: white;
 }
-
 /* ###### Text & Menu boxes ###### */
 section {
     padding: 100px;
@@ -48,7 +45,6 @@ section {
     flex-direction:column;
     align-items:center;
 }
-
 section h1 {
     display:flex;
     margin-top:50px;
@@ -76,7 +72,6 @@ h1 {
     font-size: 6em;
     font-family: "Spirax", sans-serif;
 }
-
 .text-box {
     display: inline-block;
     padding: 20px;
@@ -99,7 +94,6 @@ h1 {
     text-align: center;
     margin-right:10%;
 }
-
 .menu-box {
     margin-top:30px;
     padding:20px 50px 20px 50px;
@@ -120,7 +114,7 @@ h1 {
     background:darkred;
     padding:10px;
 }
-
+/* ###### Mobile ###### */
 @media (max-width: 768px) {
     section {
         padding: 20px;
